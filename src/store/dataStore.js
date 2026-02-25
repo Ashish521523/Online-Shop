@@ -1,6 +1,6 @@
 export let DEFAULT_ITEMS=[{
       id: "001",
-    image: "/images/1.jpg",
+    image: `${import.meta.env.BASE_URL}images/1.jpg`,
     company: "Carlton London",
     item_name: "Rhodium-Plated CZ Floral Studs",
     original_price: 1045,
